@@ -27,3 +27,13 @@ $person2 = new nullableproperties();
 $person2->parameter=null;
 
 // var_dump($person2);
+
+$anas = new hello();
+$anas->name = "Anas";
+$anas->sayHello(null);
+$anas->info();
+
+$joko = new hello();
+$joko->name = "Joko";
+$joko->sayHello("Aziz");
+$joko->info();
